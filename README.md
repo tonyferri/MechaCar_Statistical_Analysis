@@ -22,5 +22,26 @@
 [Lot Summary](https://github.com/tonyferri/MechaCar_Statistical_Analysis/blob/main/Resources/lot%20summary%20del%202.png);
 
 ## T-Tests on Suspension Coils
+* The p-value for the t-Test across all lots was 0.05
+* The p-value for the t-Test across lot 1 was 0.21
+* The p-value for the t-Test across lot 2 was 0.29
+* The p-value for the t-Test across lot 3 was 0.02
+* The t-tests for all lots and Lot 3 showed a stronger correlation than those for Lots 1 & 2
+
+[p-test total](https://github.com/tonyferri/MechaCar_Statistical_Analysis/blob/main/Resources/p-test%20total.png);
+
+[p-test lot1](https://github.com/tonyferri/MechaCar_Statistical_Analysis/blob/main/Resources/p-test%20lot1.png);
+
+[p-test lot2](https://github.com/tonyferri/MechaCar_Statistical_Analysis/blob/main/Resources/p-test%20lot2.png);
+
+[p-test lot3](https://github.com/tonyferri/MechaCar_Statistical_Analysis/blob/main/Resources/p-test%20lot3.png);
 
 ## Study Design: MechaCar vs Competition
+* Proposed method for determining the performance of the MechaCar versus the competition:
+  * Metrics to be tested:
+    * Vehicle Cost
+    * mpg (city)
+    * mpg (highway)
+    * Safety Rating
+  * Null Hypothesis: the MechaCar performs roughly the same as the competition
+  * Create a Two-Sample t-Test for each of the categories listed above
